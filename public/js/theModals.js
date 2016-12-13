@@ -37,14 +37,14 @@ $(function (){
   $('#trig7').click(function (e){
     e.preventDefault();
     $("#modalHeader").html("Sparta Global");
-    $("#modalBody").html("Business Skills – Effective communication includes written, verbal and non-verbal. Presentation skills, stakeholder management, conflict resolution"+ 
-    "HTML/CSS – Best practices and Semantics, as well as Accessibility using ARIA Best specificity practices, mobile first responsive web design, CSS frameworks and an introduction to SASS and precompilers. "+
-    "Version control, APIs – Git working collaboratively with Github, how to contribute to open source projects. Interacting with public and private APIs in both XML and JSON formats. In-depth look at the RESTful design pattern."+
-    "Web Design and Information Architecture – the full design process from inception and client needs, data structures, design metaphors and both low-fidelity and high-fidelity wireframing. Databases – building and querying SQL databases with MySQL, noSQL databases with MongoDB in preparation for use in a node app."+
-    "Practical Agile - methods of Scrum including User Stories, Acceptance Criteria, Acceptance Tests, User Stories, DOD, Burn down Charts, Road maps, Release Planning, Sprint Planning, Daily stand-ups, Retrospectives and Sprint Reviews."+
-    "JavaScript – including interacting with the DOM, AJAX and one page apps, jQuery, Object Oriented programming and prototypical inheritance, introduction to classes with ES6 and Babel."+
-    "Node.js/React.js - Server side JavaScript with Express, Socket.io and integration with MongoDB. Build custom APIs, use node modules in middleware to configure the app. Covering Redis, authentication with Passport, JWT token based authentication, testing with Mocha and Chai, and Express EJS templates for serving static files. Client side development with Javascript front-end frameworks, focusing particularly on React. Covering best practices and the single responsibility principle, using Webpack with React as well as testing with Jest."+
-    "Practical Testing – testing lifecycle, testing development and design, exploratory testing, web testing, performance testing and usability testing.");
+    $("#modalBody").html("<b>Business Skills</b> – Effective communication includes written, verbal and non-verbal. Presentation skills, stakeholder management, conflict resolution. "+ 
+    "<b>HTML/CSS</b> – Best practices and Semantics, as well as Accessibility using ARIA Best specificity practices, mobile first responsive web design, CSS frameworks and an introduction to SASS and precompilers. "+
+    "<b>Version control, APIs</b> – Git working collaboratively with Github, how to contribute to open source projects. Interacting with public and private APIs in both XML and JSON formats. In-depth look at the RESTful design pattern. "+
+    "<b>Web Design and Information Architecture</b> – the full design process from inception and client needs, data structures, design metaphors and both low-fidelity and high-fidelity wireframing. Databases – building and querying SQL databases with MySQL, noSQL databases with MongoDB in preparation for use in a node app. "+
+    "<b>Practical Agile</b> - methods of Scrum including User Stories, Acceptance Criteria, Acceptance Tests, User Stories, DOD, Burn down Charts, Road maps, Release Planning, Sprint Planning, Daily stand-ups, Retrospectives and Sprint Reviews. "+
+    "<b>JavaScript</b> – including interacting with the DOM, AJAX and one page apps, jQuery, Object Oriented programming and prototypical inheritance, introduction to classes with ES6 and Babel. "+
+    "<b>Node.js/React.js</b> - Server side JavaScript with Express, Socket.io and integration with MongoDB. Build custom APIs, use node modules in middleware to configure the app. Covering Redis, authentication with Passport, JWT token based authentication, testing with Mocha and Chai, and Express EJS templates for serving static files. Client side development with Javascript front-end frameworks, focusing particularly on React. Covering best practices and the single responsibility principle, using Webpack with React as well as testing with Jest. "+
+    "<b>Practical Testing</b> – testing lifecycle, testing development and design, exploratory testing, web testing, performance testing and usability testing.");
     $('.modal').modal();
   });
 

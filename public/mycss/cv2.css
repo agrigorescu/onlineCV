@@ -1,0 +1,267 @@
+/*--begining of the css--*/
+
+/*--importing font--*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nunito|Raleway');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*--standard styling--*/
+body {
+    font-family: 'Nunito',serif;
+	  color: black;
+	  text-align: justify;
+}
+
+h1 {
+	font-size: 4vw;
+	}
+
+h3 {
+	font-size: 3.3vw
+}
+
+h2 {
+    text-align: center;
+    padding-top: 1%;
+	font-size: 3.7vw;
+}
+
+h4 {
+	font-size: 2.8vw;
+}
+
+footer {
+    font-family: 'Indie Flower', 'Nunito', serif;
+    font-size: 1vw;
+    text-align: right;
+}
+
+#email {
+    color: black;
+}
+
+#about, #projects, #contact, .experience, .school {
+	background-image: url("../images/background-paralax.jpg");
+	/*background-color: #FFFFED; /*#FCCA80;*/
+}
+/*--end of standard styling--*/
+
+/*--link decorations--*/
+a:link {
+    text-decoration: none;
+    color: #6B238E;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #6B238E;
+    background-color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: #FFFFED;
+}
+
+a {
+    padding: 2px;
+}
+/*--end of link decorations--*/
+
+/*--profile picture--*/
+#profilePicture {
+  border-radius: 50%;
+}
+/*--end of profile picture--*/
+
+/*--styling the nav bar--*/
+
+nav {
+    background-color: #FFFFED;
+    width: 100%;
+    margin: 1% auto;
+    overflow: hidden;
+}
+
+nav ul  {
+    list-style: none;
+    overflow: hidden;
+    }
+
+nav li a {
+    font-size: 120%;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.5s ease;
+    }
+
+/*--end of styling od the navbar--*/
+
+/*--editing the parallax effect--*/
+#parallax1.parallax-container {
+	height: 90vh;
+	}
+
+.parallax-container {
+	height: 50vh;
+	}
+/*-- end of editing the first parallax effect--*/
+
+/*--display the profile pic and the intro on the same line--*/
+#profilePicture, #intro {
+  	display: inline-block;
+}
+
+#profilePicture {
+  	width: 30%;
+  	padding: 2%;
+  	margin-top: 0.5vw;
+}
+
+ .container {
+	background: rgba(255, 255, 255, 0.01);
+	position: absolute;
+	box-sizing: padding-box;
+	margin: 15vw;
+ }
+/*--end of homepage styling--*/
+
+/*--about section - styling the greeting--*/
+#greeting {
+  	font-family: 'Indie Flower', serif;
+  	font-size: 15vw;
+  	margin-left: 2%;
+}
+
+.summary {
+  	text-align: left;
+  	padding-left: 2%;
+  	padding-bottom: 5%;
+}
+/*--end of styling the greeting--*/
+
+
+/*--experience section styling--*/
+.timelineImage {
+	display: block;
+  	margin: auto;
+	width: 6.7vw;
+}
+/*--end of experience--*/
+
+/*--styling the projects--*/ /*--styling the modals--*/
+
+.modal-content p {
+	font-size: 2vh;
+}
+
+/*--end of projects--*/ /*--end of styling of the modals--*/
+
+/*--contact me section--*/
+#contact {
+  	text-indent: 2%;
+}
+/*--and of contact section--*/
+
+/*--styling the social buttons--*/
+.socialButton {
+  	width: 38px;
+  	margin: 0 5px;
+}
+/*--end of social buttons--*/
+
+/*--styling the modal--*/
+#modalBody, #modalHeader {
+	font-family: 'Raleway';
+}
+/*--end of the modal styling--*/
+
+/*--styling the form--*/
+form {
+	margin-top: 2.3vw;
+}
+
+/*label color */
+.input-field label {
+	color: black;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: black;
+ }
+   
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #6B238E;
+    box-shadow: 0 1px 0 0 #6B238E;
+}
+
+ /* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #6B238E;
+    box-shadow: 0 1px 0 0 #6B238E;
+}
+
+.btn {
+	background-color: #6B238E;
+}
+
+/*--end of the form styling--*/
+
+
+/*--media queries--*/
+/*--media queries for tablets--*/
+@media only screen and (max-width: 780px) {
+	p {
+		font-size: 2.5vw;
+	}
+
+	details {
+		font-size: 2.5vw;
+	}
+
+	.lists {
+		font-size: 2.5vw;
+	}
+
+	#greeting{
+			margin: 0 33%;
+	}
+
+	#projects p {
+		column-count: 1;
+	}
+
+	#parallax1.parallax-container {
+		height: 10vw;
+	}
+
+	.parallax-container {
+		height: 20vh;
+	}
+
+	.container {
+		margin: 0vw;
+	}
+}
+
+/*--media querys for mobile phones--*/
+@media only screen and (max-width: 780px) {
+	#parallax1.parallax-container {
+		height: 25vh;
+	}
+
+	.parallax-container {
+		height: 5vh;
+	}
+
+	.container {
+		margin-bottom: 5vw;
+	}
+}

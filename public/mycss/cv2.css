@@ -39,6 +39,9 @@ footer {
     font-size: 1vw;
     text-align: right;
 }
+footer p {
+	text-align: right;
+}
 
 #email {
     color: black;
@@ -46,7 +49,6 @@ footer {
 
 #about, #projects, #contact, .experience, .school {
 	background-image: url("../images/background-paralax.jpg");
-	/*background-color: #FFFFED; /*#FCCA80;*/
 }
 /*--end of standard styling--*/
 
@@ -154,14 +156,6 @@ nav li a {
 }
 /*--end of experience--*/
 
-/*--styling the projects--*/ /*--styling the modals--*/
-
-.modal-content p {
-	font-size: 2vh;
-}
-
-/*--end of projects--*/ /*--end of styling of the modals--*/
-
 /*--contact me section--*/
 #contact {
   	text-indent: 2%;
@@ -176,6 +170,10 @@ nav li a {
 /*--end of social buttons--*/
 
 /*--styling the modal--*/
+.modal-content p {
+	font-size: 2vh;
+}
+
 #modalBody, #modalHeader {
 	font-family: 'Raleway';
 }

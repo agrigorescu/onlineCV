@@ -1,11 +1,13 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const routes = require("./routes/routes");
+const layouts = require('express-ejs-layouts');
 const contactRoutes = require("./routes/contact");
 const app = express();
 
 //view engine
 app.set('view engine', 'ejs');
+app.use(layouts);
 
 //middleware
 app.use(bodyParser.json());

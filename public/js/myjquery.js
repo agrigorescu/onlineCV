@@ -36,7 +36,7 @@ $(function(){
      
 
      //making the form conversational
-     $("form").conversationalForm();
+    //  $("form").conversationalForm();
 
 
 });
